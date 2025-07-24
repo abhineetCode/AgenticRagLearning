@@ -1,0 +1,12 @@
+langgraph
+langsmith
+langchain
+langchain_core
+langchain_groq
+langchain-ollama
+langchain-chroma
+langchain_community
+langchain-text-splitters
+bs4
+IPython
+pandas
