@@ -15,6 +15,35 @@ go to console.groq.com to create an account and create an api key
 
 # AgenticRagLearning
 
+**What is Generative AI?**
+
+Generative AI is a type of artificial intelligence that creates new content – such as text, images, or audio – based on patterns learned from existing data.
+
+At the heart of it there is LLM like GPT-4, claude and huge volume  of data like Wikipedia, dictionary etc.
+
+**What is AI Agent?**
+
+Ai Agent is a program that takes input, thinks and acts to complete a task using tools, memory and knowledge.
+It is autonomous but task specific and does not span multiple or evolving goal.
+
+**What is Agentic AI?**
+
+Agentic AI is a system where one or more AI agent work autonomously, often over long or complex tasks, making decision, using tools and other agent to reach a  goal.
+Multi step reasoning
+Multi step planning
+Works on a complex goal autonomously
+
+There are many Agentic AI framework
+-	Agno
+-	Crew AI
+-	Langgraph
+-	Microsoft Autogen
+
+System Type	        GenAI (LLM only)	                    AI Agent	                                            Agentic AI
+Task Capability	    Answer based on Pretrained knowledge.	Takes input, decides and completes a task	            Handles multi step goals with planning and coordination
+Tool usage	        No external Tool	                    Uses tool to completes and task	                        Uses multiple tools, may call other agents
+Autonomous decision	No decision making	                    Makes decision to complete the task	                    Plans, decides, and adapts overtime
+			
 **What is context widow?**
 
 Context is a models's memory that has the converstion history or the external document or data it is processing.
