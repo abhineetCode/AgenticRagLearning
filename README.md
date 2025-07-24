@@ -38,3 +38,24 @@ b.	Skip-Gram, does opposite – predicting context words given a target word.
 
 The representation of word changes based on surrounding context, so for example in transformer model, word “bank” would have different representation in the sentences.” I am going to the bank to deposit money” and “I am sitting at the bank of the river.” 	
 
+
+**What are embedding models?**
+
+Embedding models are algorithms trained to encapsulate information into dense representations in a multi-dimensional space. Data scientists use embedding models to enable ML models to comprehend and reason with high-dimensional data. These are common embedding models used in ML applications.
+
+1. Principal component analysis
+   
+Principal component analysis (PCA) is a dimensionality-reduction technique that reduces complex data types into low-dimensional vectors. It finds data points with similarities and compresses them into embedding vectors that reflect the original data. While PCA allows models to process raw data more efficiently, information loss may occur during processing.
+
+2. Singular value decomposition
+   
+Singular value decomposition (SVD) is an embedding model that transforms a matrix into its singular matrices. The resulting matrices retain the original information while allowing models to better comprehend the semantic relationships of the data they represent. Data scientists use SVD to enable various ML tasks, including image compression, text classification, and recommendation. 
+
+3. Word2Vec
+   
+Word2Vec is an ML algorithm trained to associate words and represent them in the embedding space. Data scientists feed the Word2Vec model with massive textual datasets to enable natural language understanding. The model finds similarities in words by considering their context and semantic relationships.
+There are two variants of Word2Vec—Continuous Bag of Words (CBOW) and Skip-gram. CBOW allows the model to predict a word from the given context, while Skip-gram derives the context from a given word. While Word2Vec is an effective word embedding technique, it cannot accurately distinguish contextual differences of the same word used to imply different meanings. 
+
+4. BERT
+   
+BERT is a transformer-based language model trained with massive datasets to understand languages like humans do. Like Word2Vec, BERT can create word embeddings from input data it was trained with. Additionally, BERT can differentiate contextual meanings of words when applied to different phrases. For example, BERT creates different embeddings for ‘play’ as in “I went to a play” and “I like to play.” 
