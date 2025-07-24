@@ -39,9 +39,10 @@ There are many Agentic AI framework
 -	Langgraph
 -	Microsoft Autogen
 
-Gen AI vs AI Agent vs Agentic AI
+**Gen AI vs AI Agent vs Agentic AI**
 
 <img width="2210" height="179" alt="image" src="https://github.com/user-attachments/assets/9f787f85-b33b-495a-80ce-ee2c9a6d54b0" />
+
 
 **What is context widow?**
 
