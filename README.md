@@ -39,6 +39,8 @@ There are many Agentic AI framework
 -	Langgraph
 -	Microsoft Autogen
 
+<img width="2210" height="179" alt="image" src="https://github.com/user-attachments/assets/9f787f85-b33b-495a-80ce-ee2c9a6d54b0" />
+
 System Type	        GenAI (LLM only)	                    AI Agent	                                            Agentic AI
 Task Capability	    Answer based on Pretrained knowledge.	Takes input, decides and completes a task	            Handles multi step goals with planning and coordination
 Tool usage	        No external Tool	                    Uses tool to completes and task	                        Uses multiple tools, may call other agents
