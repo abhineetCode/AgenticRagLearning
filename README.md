@@ -15,6 +15,18 @@ go to console.groq.com to create an account and create an api key
 
 # AgenticRagLearning
 
+**What is context widow?**
+
+Context is a models's memory that has the converstion history or the external document or data it is processing.
+
+Its a amount of text as a token, that model remember at any one time.LLM have limited context window or context length.
+
+When you interact with LLM, the model takes teh conversation history and the prompts as a context window and passed to the LLM to predict the next relevent word and generate the coherent responses. for example, In a chatbot, the context allows the model remembers the previous question and answer, maintaining a consistent conversation flow. When summarizing a long document, the context helps the model grasp the overall meaning and relationship between different section.
+
+Context Enggineering: Technique like Retrieval Augmented Generation (RAG) are used to provide LLMs with additional context from external sources, further improving the quality of responses.
+
+Generally speaking, increasing an LLM's context window size translates to increased accuracy, fewer hallucinations, more coheent model responses, longer conversations and improved ability to analyze longer sequences of data. However, increased context length is not without tradeoffs: it often entails increased computational power requirements - and there fore increased costs and a potential increse in vulnerability to adversarial attacks.
+
 **What is embedding?**
 
 Embedding enables machine learning models to find similar objects i.e. they allow models to learn complex patterns and relationships in the data. For instance, in natural language processing (NLP), words with similar meanings will have similar embeddings to easily understand the relationships between different words and categories instead of just analysing each word in isolation thus, generate more coherent and contextually relevant responses to user prompts and questions.
