@@ -1,5 +1,7 @@
 activate by running below two in terminal
+
     python -m venv venv
+    
     venv/Scripts/activate
 
 install required packages from requirement.txt.
