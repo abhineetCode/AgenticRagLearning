@@ -42,7 +42,7 @@ vector_store = Chroma(
 if add_documents:
     vector_store.add_documents(documents=documents, ids=ids)
 
-#Retriever class returns Documents given a text unstructured query.
+##Retriever class returns most relvent information from our knowledge base (Documents) given a text unstructured query.
 #It is more general than a vector store. 
 #A retriever does not need to be able to store documents, only to return (or retrieve) it. 
 #Vector stores can be used as the backbone of a retriever, but there are other types of retrievers as well.
