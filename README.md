@@ -115,3 +115,35 @@ There are two variants of Word2Vec—Continuous Bag of Words (CBOW) and Skip-gra
 4. BERT
    
 BERT is a transformer-based language model trained with massive datasets to understand languages like humans do. Like Word2Vec, BERT can create word embeddings from input data it was trained with. Additionally, BERT can differentiate contextual meanings of words when applied to different phrases. For example, BERT creates different embeddings for ‘play’ as in “I went to a play” and “I like to play.” 
+
+**RAG – Retrieval augmented generation**
+
+RAG enhances the capabilities of AI systems by providing them with access to external data sources, making their responses more accurate and relevant.
+
+**Why RAG Matters**
+
+a. Improved Accuracy: RAG reduces hallucinations by grounding the generative process in factual information.
+
+b. Up-to-Date Information: It allows access to real-time knowledge from external sources.
+
+c. Enhanced Context: The model can generate responses considering a wider context, thanks to the retrieved information.
+
+d. Increased Transparency: You can trace back the sources of information, making the process more explainable.
+
+**RAG combines the strengths of two key components:**
+
+Retrieval: Accessing and fetching relevant information from an external knowledge source based on the user’s query.
+
+Generation: Using a generative language model to produce a response by incorporating the retrieved information.
+
+**RAG Process:**
+
+User Query: The user asks a question or provides a prompt.
+
+Retrieval: The system uses a retrieval engine to find relevant documents or snippets from the knowledge source.
+
+Augmentation: The retrieved information is added to the original query, creating an enriched context for the language model.
+
+Generation: The language model generates a response based on this augmented prompt.
+
+
