@@ -130,13 +130,27 @@ c. Enhanced Context: The model can generate responses considering a wider contex
 
 d. Increased Transparency: You can trace back the sources of information, making the process more explainable.
 
-**RAG combines the strengths of two key components:**
+**RAG combines the strengths of three key components:**
 
-Retrieval: Accessing and fetching relevant information from an external knowledge source based on the user’s query.
+Indexing: a pipeline for ingesting data from a source and indexing it. This usually happens offline.
+
+Retrieval: Accessing and fetching relevant information from the index (external knowledge) source based on the user’s query.
 
 Generation: Using a generative language model to produce a response by incorporating the retrieved information.
 
 **RAG Process:**
+
+**Indexing**
+
+Load: First we need to load our data. This is done with Document Loaders.
+
+Split: Text splitters break large Documents into smaller chunks. This is useful both for indexing data and passing it into a model, as large chunks are harder to search over and won't fit in a model's finite context window.
+
+Store: We need somewhere to store and index our splits, so that they can be searched over later. This is often done using a VectorStore and Embeddings model.
+
+<img width="2583" height="1299" alt="image" src="https://github.com/user-attachments/assets/043ad4ce-17f1-41fa-8e36-4fa6077a4ccd" />
+
+**Retrieval and generation**
 
 User Query: The user asks a question or provides a prompt.
 
@@ -146,4 +160,5 @@ Augmentation: The retrieved information is added to the original query, creating
 
 Generation: The language model generates a response based on this augmented prompt.
 
+<img width="2532" height="1299" alt="image" src="https://github.com/user-attachments/assets/4d89d033-4a32-41f3-a35d-5a83169a09de" />
 
